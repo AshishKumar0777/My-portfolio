@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto' sans-serif;
+}
+
+body{
+    background: #151719;
+}
+
+.myimages{
+    width: 50px;
+    height: 37px;
+}
+
+.navbar .navbar-nav .nav-item{
+    padding-left: 3.5rem;
+}
+
+.navbar .navbar-nav .nav-item a{
+    font-size: 1.05rem;
+    font-weight: 500;
+    color: #95a5a6;
+}
+
+.navbar button{
+    background: #6163FF;
+    padding: 0.4rem 1.7rem;
+    font-size: 1rem;
+    font-weight: 700;
+    border: none;
+    border-radius: 2px;
+    color: #E7E8EE;
+}
+
+.mid h1{
+    color: #ECEDED;
+    font-weight: 900;
+}
+
+.mid h1 span{
+    color: #5658DD;
+}
+
+.mid p{
+    width: 60%;
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: #97A4AE;
+    word-spacing: .1rem;
+}
+
+.mid .row button{
+    background: #6163FF;
+    padding: 0.7rem 2rem;
+    font-size: 1rem;
+    font-weight: 700;
+    border: none;
+    border-radius: 2px;
+    color: #E7E8EE;
+}
+
+.mid .row button:nth-child(2){
+    background: #25282C;
+    color: #E7E8EE;
+}
