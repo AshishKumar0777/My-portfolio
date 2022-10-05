@@ -10,6 +10,10 @@ body{
     background: #151719;
 }
 
+hr{
+    background: #2c3e50;
+}
+
 .myimages{
     width: 50px;
     height: 37px;
@@ -65,4 +69,64 @@ body{
 .mid .row button:nth-child(2){
     background: #25282C;
     color: #E7E8EE;
+}
+
+body > header > div > h1.text2{
+    font-weight: 900;
+    font-size: 3rem;
+    color: #E7E8EE;
+}
+
+.img{
+    width: 30px;
+    height: 20px;
+}
+
+.features .row .one img{
+    background: #5658DD;
+    color: #fff;
+    border-radius: 50px;
+}
+
+.features .row .one h3{
+    color: #ECEDED;
+    font-weight: 700;
+}
+
+.features .row .one p{
+    color: #97A4AE;
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+.about h1{
+    font-weight: 900;
+    font-size: 3rem;
+    color: #E7E8EE;
+}
+
+.about p{
+    color: #97A4AE;
+    font-weight: 400;
+    font-size: 1.3rem;
+    word-spacing: 0.01rem;
+}
+
+.sub{
+    background: #5658DD;
+    padding: 3rem 2.3rem;
+}
+
+.sub .row h2{
+    font-weight: 900;
+    font-size: 2.2rem;
+    color: #E7E8EE;
+}
+
+.sub .row input{
+    width: 30%;
+    border-style: none;
+    outline: none;
+    padding: 0.9rem 1rem;
+    border-radius: 3px;
 }
